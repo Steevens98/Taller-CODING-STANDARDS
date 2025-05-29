@@ -5,7 +5,7 @@ class Student {
     private String name;
     private List<Double> grades;
     private String pass = "unknown";
-    private boolean honor;
+    private String honor;
 
     public Student(String id, String name) {
         this.id = id;
