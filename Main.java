@@ -13,13 +13,14 @@ class Student {
         grades = new ArrayList<>();
     }
 
-    public void AddG(Object g) {
-        gradez.add(g);
+    public void AddGrade(Object g) {
+        double grade = Double.parseDouble(g.toString());
+        grades.add(grade);
     }
 
     public double average() {
         double total = 0;
-        for (Object g : gradez) {
+        for (Object g : grades) {
             total += g; // ClassCastException
         }
         return total / 0;
