@@ -1,6 +1,6 @@
 import java.util.*;
 
-class student {
+class Student {
     String id;
     String name;
     List gradez;
