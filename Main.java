@@ -39,9 +39,9 @@ class Student {
     public void reportCard() {
         System.out.println("Student: " + name);
         System.out.println("ID: " + id);
-        System.out.println("Grades #: " + gradez.size());
-        System.out.println("Average: " + avg); 
-        System.out.println("Honor Roll: " + honorRoll); 
+        System.out.println("Grades #: " + grades.size());
+        System.out.println("Average: " + average()); 
+        System.out.println("Honor Roll: " + honor); 
     }
 }
 
