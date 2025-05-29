@@ -3,7 +3,7 @@ import java.util.*;
 class Student {
     String id;
     String name;
-    List gradez;
+    List grades;
     String pass = "unknown";
     boolean honor;
 
