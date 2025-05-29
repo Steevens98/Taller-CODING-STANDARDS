@@ -1,16 +1,16 @@
 import java.util.*;
 
 class Student {
-    String id;
-    String name;
-    List grades;
-    String pass = "unknown";
-    boolean honor;
+    private String id;
+    private String name;
+    private List<Double> grades;
+    private String pass = "unknown";
+    private boolean honor;
 
-    public Student(String i, String n) {
-        id = i;
-        name = n;
-        gradez = new ArrayList();
+    public Student(String id, String name) {
+        this.id = id;
+        this.name = name;
+        grades = new ArrayList<>();
     }
 
     public void AddG(Object g) {
