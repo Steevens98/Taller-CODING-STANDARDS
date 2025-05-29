@@ -36,7 +36,7 @@ class Student {
         grades.remove(i);
     }
 
-    public void reportCard() {
+    public void Report() {
         System.out.println("Student: " + name);
         System.out.println("ID: " + id);
         System.out.println("Grades #: " + grades.size());
@@ -51,8 +51,8 @@ public class Main {
         s.AddGrade(100);
         s.AddGrade(90);
         s.average();
-        s.checkHonorStatus();
+        s.evaluateStatus();
         s.removeGrade(9);
-        s.reportCard();
+        s.Report();
     }
 }
