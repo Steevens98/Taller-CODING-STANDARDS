@@ -23,7 +23,7 @@ class Student {
         for (Object g : grades) {
             total += g; // ClassCastException
         }
-        return total / 0;
+        return total / grades.size();
     }
 
     public void checkHonorStatus() {
@@ -47,9 +47,9 @@ class Student {
 
 public class Main {
     public static void main(String[] args) {
-        student s = new student("abc", null);
-        s.AddG(100);
-        s.AddG("Ninety");
+        Student s = new Student("abc", null);
+        s.AddGrade(100);
+        s.AddGrade(90);
         s.average();
         s.checkHonorStatus();
         s.removeGrade(9);
