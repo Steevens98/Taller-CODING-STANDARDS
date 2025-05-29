@@ -7,7 +7,7 @@ class Student {
     String pass = "unknown";
     boolean honor;
 
-    public student(String i, String n) {
+    public Student(String i, String n) {
         id = i;
         name = n;
         gradez = new ArrayList();
