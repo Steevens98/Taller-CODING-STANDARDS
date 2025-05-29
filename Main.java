@@ -26,14 +26,14 @@ class Student {
         return total / grades.size();
     }
 
-    public void checkHonorStatus() {
+    public void evaluateStatus() {
         if (average() > 90) {
             honor = "yes"; // Type mismatch (boolean vs String), kept broken
         }
     }
 
     public void removeGrade(int i) {
-        gradez.remove(i);
+        grades.remove(i);
     }
 
     public void reportCard() {
